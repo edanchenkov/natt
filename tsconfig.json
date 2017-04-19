@@ -3,11 +3,18 @@
     "outDir": "./build/",
     "sourceMap": true,
     "module": "CommonJS",
-    "target": "es6",
+    "target": "es5",
     "removeComments": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
-    "allowJs": true
+    "allowJs": true,
+    "alwaysStrict": true,
+    "diagnostics": true,
+    "lib": [
+      "DOM",
+      "ES5",
+      "ScriptHost"
+    ]
   },
   "include": [
     "./src/**/*"

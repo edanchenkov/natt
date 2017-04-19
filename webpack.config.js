@@ -4,6 +4,14 @@ module.exports = {
         filename: "bundle.js",
         path: __dirname + "/build"
     },
+    // Awesome typescript loader stores errors in webpack stats
+    // Print full error
+    stats: {
+        colors: true,
+        modules: true,
+        reasons: true,
+        errorDetails: true
+    },
 
     // Enable sourcemaps for debugging webpack's output.
     devtool: "source-map",
