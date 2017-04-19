@@ -1,14 +1,15 @@
 {
-    "compilerOptions": {
-        "outDir": "./build/",
-        "sourceMap": true,
-        "noImplicitAny": true,
-        "module": "commonjs",
-        "target": "es5",
-        "removeComments": true,
-        "strictNullChecks": true
-    },
-    "include": [
-        "./src/**/*"
-    ]
+  "compilerOptions": {
+    "outDir": "./build/",
+    "sourceMap": true,
+    "module": "CommonJS",
+    "target": "es6",
+    "removeComments": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "allowJs": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
 }
