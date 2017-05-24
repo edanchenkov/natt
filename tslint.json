@@ -1,9 +1,14 @@
 {
-  "defaultSeverity": "error",
-  "extends": [
-    "tslint:recommended"
-  ],
-  "jsRules": {},
-  "rules": {},
-  "rulesDirectory": []
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "trailing-comma": false,
+        "array-type": false,
+        "object-literal-sort-keys": false,
+        "prefer-const": false
+    },
+    "rulesDirectory": []
 }
