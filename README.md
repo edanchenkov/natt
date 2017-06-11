@@ -1,8 +1,8 @@
 # natt
 
-Code base for Webpack 2 + TypeScript 2 projects Includes:
+Code base for Webpack + TypeScript 2 projects Includes:
 
-- Webpack 2
+- Webpack
 - TypeScript 2
 - TypeScript Lint
 
