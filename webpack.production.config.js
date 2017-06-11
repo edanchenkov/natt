@@ -3,8 +3,8 @@ var path = require('path');
 module.exports = {
     entry : "./src/index.ts",
     output : {
-        filename : "bundle.js",
-        path : __dirname + "/build"
+        path : __dirname + "/build",
+        filename : 'bundle.js'
     },
     // Awesome typescript loader stores errors in webpack stats
     // Print full error
@@ -14,21 +14,9 @@ module.exports = {
         reasons : true,
         errorDetails : true
     },
-
-    // Enable sourcemaps for debugging webpack's output.
-    devtool : "source-map",
-
-    devServer : {
-        port : 3000,
-        watchOptions : {
-            aggregateTimeout : 300,
-            poll : 1000
-        }
-    },
-
     resolve : {
         // Add '.ts' and '.tsx' as resolvable extensions.
-        extensions : [".ts", ".tsx", ".js", ".json"]
+        extensions : [".ts", ".tsx", ".js"]
     },
 
     module : {
@@ -53,7 +41,5 @@ module.exports = {
             }
         ],
     },
-    node : {
-        fs : "empty"
-    }
+    plugins : []
 };

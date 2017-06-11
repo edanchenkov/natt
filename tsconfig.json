@@ -1,22 +1,26 @@
 {
-  "compilerOptions": {
-    "outDir": "./build/",
-    "sourceMap": true,
-    "module": "CommonJS",
-    "target": "es5",
-    "removeComments": true,
-    "strictNullChecks": true,
-    "noImplicitAny": false,
-    "allowJs": true,
-    "alwaysStrict": true,
-    "diagnostics": true,
-    "lib": [
-      "DOM",
-      "ES6",
-      "ScriptHost"
+    "compilerOptions": {
+        "outDir": "./build/",
+        "sourceMap": true,
+        "module": "CommonJS",
+        "target": "es5",
+        "removeComments": true,
+        "strictNullChecks": true,
+        "noImplicitAny": false,
+        "allowJs": true,
+        "alwaysStrict": true,
+        "diagnostics": true,
+        "lib": [
+            "DOM",
+            "ES6",
+            "ScriptHost"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "typeRoots": [
+        "./src",
+        "node_modules/@types/"
     ]
-  },
-  "include": [
-    "./src/**/*"
-  ]
 }

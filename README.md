@@ -10,21 +10,27 @@ Code base for Webpack 2 + TypeScript 2 projects Includes:
 This is a generic base, so don't forget to go through all configs and verify they are correct.
 `package.json` is a perfect place to start.
 
-## Install
+## Installation
 
 ```
 npm i -g typescript webpack
-npm link typescript
 npm i
+npm run prepare
 ```
 
-## Run
+## Run dev server `webpack.config.js`
+
+```
+npm start
+```
+
+## Run without dev server `webpack.config.js`
 
 ```
 npm run dev
 ```
 
-## Build
+## Build with production configs `webpack.production.config.js`
 
 ```
 npm run build

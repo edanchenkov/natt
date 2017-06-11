@@ -1,20 +1,21 @@
 {
-  "name": "natt",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./src/index.ts",
-  "scripts": {
-    "build": "webpack -p",
-    "dev": "webpack -d -w",
-    "start": "webpack-dev-server --output-public-path=/build"
-  },
-  "author": "Egor Danchenkov",
-  "license": "MIT",
-  "devDependencies": {
-    "awesome-typescript-loader": "^3.1.2",
-    "source-map-loader": "^0.2.1",
-    "tslint": "^5.1.0",
-    "tslint-loader": "^3.5.2",
-    "webpack-dev-server": "^2.4.5"
-  }
+    "name": "natt",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/index.ts",
+    "scripts": {
+        "build": "webpack -p --config ./webpack.production.config.js --progress",
+        "dev": "webpack -d -w",
+        "start": "webpack-dev-server --output-public-path=/build",
+        "prepare": "npm link webpack && npm link typescript"
+    },
+    "author": "Egor Danchenkov",
+    "license": "MIT",
+    "devDependencies": {
+        "awesome-typescript-loader": "^3.1.2",
+        "source-map-loader": "^0.2.1",
+        "tslint": "^5.1.0",
+        "tslint-loader": "^3.5.2",
+        "webpack-dev-server": "^2.4.5"
+    }
 }
