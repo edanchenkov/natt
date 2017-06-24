@@ -1,3 +1,4 @@
+var PrettierPlugin = require('prettier-webpack-plugin');
 var path = require('path');
 
 module.exports = {
@@ -55,5 +56,11 @@ module.exports = {
     },
     node : {
         fs : "empty"
-    }
+    },
+     plugins: [
+        new PrettierPlugin({
+            parser: "typescript",
+             extensions: [ ".ts", ".tsx" ]
+        })
+    ]
 };

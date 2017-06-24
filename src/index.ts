@@ -9,26 +9,28 @@
  Happy coding, have fun!
  -------------------------------------------------------- */
 class Greeter {
-    private greeting: string;
+  private greeting: string;
 
-    /**
-     * Greeter constructor
-     * @param  {string} message [description]
-     */
-    constructor(message: string) {
-        this.greeting = message;
-    }
+  /**
+   * Greeter constructor
+   * @param  {string} message [description]
+   */
 
-    /**
-     * Generate greeeting string text
-     * @return {string} Return full greeting text
-     */
-    public greet(): string {
-        return "Hello, " + this.greeting;
-    }
+  constructor(message: string) {
+    this.greeting = message;
+  }
+
+  /**
+   * Generate greeeting string text
+   * @return {string} Return full greeting text
+   */
+
+  public greet(): string {
+    return "Hello, " + this.greeting;
+  }
 }
 
 let greeter = new Greeter("world");
 if (typeof document !== "undefined") {
-    document.body.innerHTML = `<div>${greeter.greet()}</div>`;
+  document.body.innerHTML = `<div>${greeter.greet()}</div>`;
 }

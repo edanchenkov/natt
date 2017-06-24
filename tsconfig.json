@@ -6,7 +6,7 @@
         "target": "es5",
         "removeComments": true,
         "strictNullChecks": true,
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "allowJs": true,
         "alwaysStrict": true,
         "diagnostics": true,
