@@ -1,4 +1,3 @@
-var PrettierPlugin = require('prettier-webpack-plugin');
 var path = require('path');
 
 module.exports = {
