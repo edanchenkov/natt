@@ -39,7 +39,7 @@ module.exports = {
                 loader : 'tslint-loader',
                 options : { /* Loader options go here */ }
             }
-        ],
+        ]
     },
     plugins : []
 };

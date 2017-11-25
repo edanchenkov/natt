@@ -57,10 +57,5 @@ module.exports = {
     node : {
         fs : "empty"
     },
-     plugins: [
-        new PrettierPlugin({
-            parser: "typescript",
-             extensions: [ ".ts", ".tsx" ]
-        })
-    ]
+    plugins : []
 };

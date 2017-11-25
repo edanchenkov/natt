@@ -5,7 +5,6 @@ Code base for Webpack + TypeScript 2 projects Includes:
 - Webpack
 - TypeScript 2
 - TypeScript Lint
-- Prettier
 
 *NOTE!*
 This is a generic base, so don't forget to go through all configs and verify they are correct.
